@@ -271,6 +271,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "lcd1_28"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "embedded-graphics",
+ "embedded-hal 1.0.0",
+ "fugit",
+ "panic-halt",
+ "st7735-lcd",
+ "waveshare-rp2040-lcd-0-96",
+]
+
+[[package]]
 name = "micromath"
 version = "1.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -496,20 +510,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "touch-lcd1_28"
-version = "0.1.0"
-dependencies = [
- "cortex-m",
- "cortex-m-rt",
- "embedded-graphics",
- "embedded-hal 1.0.0",
- "fugit",
- "panic-halt",
- "st7735-lcd",
- "waveshare-rp2040-lcd-0-96",
 ]
 
 [[package]]

@@ -1,5 +1,5 @@
 [package]
-name = "touch-lcd1_28"
+name = "lcd1_28"
 version = "0.1.0"
 edition = "2021"
 
